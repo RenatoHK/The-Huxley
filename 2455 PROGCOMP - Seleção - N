@@ -1,0 +1,15 @@
+idade = int(input())
+
+if idade >=0 and idade <= 10:
+    print('infantil')
+else:
+    if idade <= 14:
+        print('junior')
+    else:
+        if idade <= 20:
+            print('adolescente')
+        else:
+            if idade <= 35:
+                print('jovem')
+            else:
+                print('master')
