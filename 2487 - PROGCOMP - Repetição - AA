@@ -1,0 +1,13 @@
+total = 0
+n1 = 0
+notas = []
+
+while n1 != -1:
+    n1 = float(input())
+    if n1 != -1:
+        notas.append(n1)
+     
+for i in range(len(notas)):
+    total += notas[i]
+    media = total / len(notas)
+print('%.2f' % media)
