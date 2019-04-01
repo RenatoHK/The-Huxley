@@ -1,0 +1,12 @@
+op = 1
+numeros = []
+total = 0
+while op != 0:
+    op = float(input())
+    if op != 0:
+       numeros.append(op)
+     
+for i in range(len(numeros)):
+    total += numeros[i]
+    media = total / len(numeros)
+print('%.0f' % media)
