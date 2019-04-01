@@ -1,0 +1,6 @@
+dist = float(input())
+cons = float(input())
+
+gasto = dist * cons
+
+print('%.2f' % gasto)
