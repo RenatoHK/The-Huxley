@@ -1,0 +1,14 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a < b+c and b < a+c and c < a+b:
+    print('podem formar um triangulo')
+    if a==b and a==c and b==a:
+        print('equilatero')
+    elif a==b or a==c or c==b:
+        print('isosceles')
+    elif a != b and a != c and c != a:
+        print('escaleno')
+else:
+    print('nao podem formar um triangulo')
